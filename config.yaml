@@ -1,0 +1,16 @@
+#Agent Configuration
+agent:
+ sample_interval_s: 5
+ probe_interval_s: 15
+ log_level: INFO
+
+storage:
+ db_path: health.db_path
+ retention_days: 7
+ cleanup_itnerval_s: 6
+
+api:
+ host: "127.0.0.1"
+ post: 8000
+
+
